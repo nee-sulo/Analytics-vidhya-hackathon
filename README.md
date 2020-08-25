@@ -9,7 +9,8 @@ Step 1: Giving a look into the dataset's features through some simple EAD
 Step 2: Performing all the below steps in preprocessing:                                          
 * Data cleaning
 * Convert text data into Vectors
-* Create new features from existing features                                                                    
+* Create new features from existing features    
+
 Step 3: Finding variables that are most predictive of the topics.                                                             
 Step 4: About Modeling: Logistic Regression, LinearSVC, SGDClassifier and various ensemble models were used in fitting the data with hyper parameter tuning.
 
