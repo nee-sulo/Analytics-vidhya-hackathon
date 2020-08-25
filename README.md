@@ -5,11 +5,12 @@ a way to give token of identification to research articles which facilitates rec
 
 The main aim of this project is to predict the topics for each article with best micro f1_score based on given the abstract and title for a set of research articles by going through below steps:
 
-Step 1: Giving a look into the dataset's features through some simple EAD
-Step 2: Performing all the below steps in preprocessing:
+Step 1: Giving a look into the dataset's features through some simple EAD                                    
+Step 2: Performing all the below steps in preprocessing:                                          
 * Data cleaning
-* Create new features from existing features
-Step 3: Finding variables that are most predictive of the topics.
+* Convert text data into Vectors
+* Create new features from existing features                                                                    
+Step 3: Finding variables that are most predictive of the topics.                                                             
 Step 4: About Modeling: Logistic Regression, LinearSVC, SGDClassifier and various ensemble models were used in fitting the data with hyper parameter tuning.
 
 The research article abstracts and titles are sourced from the following 6 topics: 
