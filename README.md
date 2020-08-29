@@ -11,9 +11,8 @@ Synopsis:
 •	Text mining and NLP techniques like wordtovec, TFIDF, CountVectorisation                          
 •	Machine/Statistical learning techniques like Hyperparameter tuning, Cross validation, RandomizedSearchCV and GriddSearchCV                  
 
-Outcome:
-A multi-label classification model with an accuracy of ~84%.                          
+Outcome: A multi-label classification model with an accuracy of ~84%.                          
 
-Achievement:
-Ranked 83 amongst 17245 participations on AnalyticsVidya (https://datahack.analyticsvidhya.com/).                                        
+Achievement:                                              
+Ranked 83 among 17245 participants on AnalyticsVidya (https://datahack.analyticsvidhya.com/)                                        
 Leaderboard link: https://datahack.analyticsvidhya.com/contest/janatahack-independence-day-2020-ml-hackathon/#LeaderBoard
