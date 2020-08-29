@@ -6,7 +6,7 @@ The main aim of this project is to predict the topic for each article with best 
 Synopsis:                                                                                          
 •	Giving a look into the dataset's features through some simple EAD                                 
 •	Performing all the below steps in pre-processing:                                     
-o	Data cleaning by removing stop words, special characters and visualise most frequent words with the help of Word Cloud
+o	Data cleaning by removing stop words, special characters and visualise most frequent words with the help of Word Cloud                          
 o	Feature extraction by expected new features from existing features                                                 
 o	Convert text data into Vectors by using TF-IDF Vectorizer and find the best n-grams with the help of RandomizedSearchCV that are most predictive to the topic prediction         
 •	About Modeling: Logistic Regression, LinearSVC, SGDClassifier and various ensemble models were used in fitting the data with hyper parameter tuning
