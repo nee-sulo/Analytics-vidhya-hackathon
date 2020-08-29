@@ -1,20 +1,19 @@
-# Topic Modeling for Research Articles
+# Topic Modeling for Research Articles (A multilabel Classification ML Exercise)
 
-Business Objective:
-The main aim of this project is to predict the topic for each article with best micro F1 Score based on the given abstract and title features for a set of research articles
+Objective: To build a ML model which can classify the 
+research articles based on their topics/subjects using the provided abstract and title details.
 
-Synopsis:                                                                                          
-•	Giving a look into the dataset's features through some simple EAD                                 
-•	Performing all the below steps in pre-processing:                                     
-o	Data cleaning by removing stop words, special characters and visualise most frequent words with the help of Word Cloud                          
-o	Feature extraction by expected new features from existing features                                                 
-o	Convert text data into Vectors by using TF-IDF Vectorizer and find the best n-grams with the help of RandomizedSearchCV that are most predictive to the topic prediction         
-•	About Modeling: Logistic Regression, LinearSVC, SGDClassifier and various ensemble models were used in fitting the data with hyper parameter tuning
+Data available: The research article abstracts and titles are sourced from the following topics: 
+Computer Science, Physics, Mathematics, Statistics, Quantitative Biology, Quantitative Finance. 
 
-The research article abstracts and titles are sourced from the following 6 topics:                                              
-•	Computer Science                                                                
-•	Physics                                                 
-•	Mathematics                                                           
-•	Statistics                                                                                                    
-•	Quantitative Biology                                                                                          
-•	Quantitative Finance                                                     
+Synopsis:
+•	Exploratory Data Analysis on text data like data cleaning, n-grams, WordClouds, Freq plots
+•	Text mining and NLP techniques like wordtovec, TFIDF, CountVectorisation
+•	Machine/Statistical learning techniques like Hyperparameter tuning, Cross validation, RandomizedSearchCV and GriddSearchCV
+
+Outcome:
+A multi-label classification model with an accuracy of ~84%. 
+
+Achievement:
+Ranked 83 amongst 17245 participations on AnalyticsVidya (https://datahack.analyticsvidhya.com/). 
+Leaderboard link: https://datahack.analyticsvidhya.com/contest/janatahack-independence-day-2020-ml-hackathon/#LeaderBoard
